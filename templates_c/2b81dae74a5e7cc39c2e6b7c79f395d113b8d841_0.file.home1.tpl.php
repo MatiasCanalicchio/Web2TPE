@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-18 01:28:04
+/* Smarty version 4.2.1, created on 2022-10-18 02:54:55
   from 'C:\xampp\htdocs\web2\templates\home1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_634de5049bcb26_06569879',
+  'unifunc' => 'content_634df95f36fb66_72354958',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2b81dae74a5e7cc39c2e6b7c79f395d113b8d841' => 
     array (
       0 => 'C:\\xampp\\htdocs\\web2\\templates\\home1.tpl',
-      1 => 1666049278,
+      1 => 1666054495,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_634de5049bcb26_06569879 (Smarty_Internal_Template $_smarty_tpl) {
+function content_634df95f36fb66_72354958 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="card" style="width: 18rem;">
@@ -70,8 +70,8 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             <button type="text" class="btn btn-primary">Submit</button>
         </form>
         <?php }?>
-    <ul class="list-group list-group-flush">
     <h2>Peleadores</h2>
+    <ul class="list-group list-group-flush">
         <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['peleadores']->value, 'peleador');
 $_smarty_tpl->tpl_vars['peleador']->do_else = true;

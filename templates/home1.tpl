@@ -32,8 +32,8 @@
             <button type="text" class="btn btn-primary">Submit</button>
         </form>
         {/if}
-    <ul class="list-group list-group-flush">
     <h2>Peleadores</h2>
+    <ul class="list-group list-group-flush">
         {foreach from=$peleadores item=$peleador }
             <li class="list-group-item"> nombre: {$peleador->nombre} peso: {$peleador->peso} nacionalidad: {$peleador->nacionalidad} (categoria: {$categoriasNombres[$peleador->id_categoria]}) </li>
             {if $loggeado == true}
